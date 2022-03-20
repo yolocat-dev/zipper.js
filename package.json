@@ -1,6 +1,6 @@
 {
   "name": "zipper.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The backend framework for MC Zipper.",
   "main": "main.js",
   "scripts": {
@@ -11,5 +11,18 @@
   "dependencies": {
     "adm-zip": "^0.5.9",
     "fs": "^0.0.1-security"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yolocat-dev/zipper.js.git"
+  },
+  "keywords": [
+    "zipper",
+    "mczipper"
+  ],
+  "bugs": {
+    "url": "https://github.com/yolocat-dev/zipper.js/issues"
+  },
+  "homepage": "https://github.com/yolocat-dev/zipper.js#readme"
 }
