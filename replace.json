@@ -1,0 +1,17 @@
+{
+    "settings": {
+        "extensions": ["txt", "yml", "properties", "json"]
+    },
+    "input": {
+        "server.properties": {
+            "port_number": 25565,
+            "other_info": "test lol"
+        },
+        "%%.yml": {
+            "money": 4000.0
+        },
+        "all": {
+            "server_name": "xdcraft"
+        }
+    }
+}
