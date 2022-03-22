@@ -54,7 +54,7 @@ async function Zipper(inputDir, outputFile, replaceData) {
 
         files.forEach(function(file) {
             let content = fs.readFileSync(inputDir + "/" + file);
-            let result = replace(file, content);
+            let result = replace(file, content, replaceData);
             if(!fs.existsSync("./temp-" + uuid + "/")) fs.mkdirSync("./temp-" + uuid + "/");
             if(result == "%%USE_ORIGINAL_FILE%%") {
                 fs.copyFileSync(inputDir + "/" + file, "./temp-" + uuid + "/" + file);
